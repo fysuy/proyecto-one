@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-one",
+  "version": "0.1.0",
+  "description": "Un juego desarollado por Drintin©",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "snap.svg": "~0.4.1"
+  }
+}

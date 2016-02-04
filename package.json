@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-one",
+  "version": "0.1.0",
+  "description": "Un juego desarrollado por Drintin©",
+  "repository": "https://github.com/fysuy/proyecto-one",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin":         "*",  
+    "grunt-contrib-qunit":          "*",  
+    "grunt-contrib-jshint":         "*",  
+    "grunt-contrib-uglify":         "*",  
+    "matchdep":                     "*"  
+  }
+}
