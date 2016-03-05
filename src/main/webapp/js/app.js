@@ -67,7 +67,6 @@ var app = (function  () {
     greenState = ShipStates.Alive;
 
   var addPlayer = function(name, role) {
-    //$("#players-list").append("<li>" + name + "</li>");
     $("#players-list").html(name);
   }
 
@@ -92,7 +91,6 @@ var app = (function  () {
       $(".select-sides").show();
 
       var nickname = $("#insert-nickname").val();
-      //addPlayer(nickname);
       var connection = webSocket.init();
 
       //Solicito los usuarios conectados
@@ -145,7 +143,8 @@ var app = (function  () {
       render: render 
     });
     //Foco al juego
-    $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+    $('#game-title').remove();
+    $('#players-list').remove();
   };
 
   function render() {}
