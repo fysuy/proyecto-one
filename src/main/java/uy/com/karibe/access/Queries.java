@@ -1,3 +1,12 @@
+/*
+ * Queries.java
+ *
+ * MDK 4.0.1 - Clase que define las sentencias SQL.
+ *
+ * 06/03/2016
+ *
+ * Copyright Drintin© 2016
+ */
 package uy.com.karibe.access;
 
 public class Queries {	

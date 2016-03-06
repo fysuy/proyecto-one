@@ -1,3 +1,12 @@
+/*
+ * MapService.java
+ *
+ * MDK 4.0.1 - Implementacion de los servicios REST para el mapa
+ *
+ * 06/03/2016
+ *
+ * Copyright Drintin© 2016
+ */
 package uy.com.karibe.rest;
 
 import java.sql.DriverManager;
